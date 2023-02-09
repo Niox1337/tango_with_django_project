@@ -26,6 +26,8 @@ SECRET_KEY = 'wenb7qq%o=f&co^116locy8=p+w!%mn8mu(xrwkyz8!)qldoay'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+SESSION_COOKIE_AGE = 1209600
 
 ALLOWED_HOSTS = []
 
